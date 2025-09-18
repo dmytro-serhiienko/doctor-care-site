@@ -181,3 +181,45 @@ header .container {
 .hero-img {
   max-width: 420px;
 }
+
+/* ? container */
+
+.hero-container-section {
+  position: relative;
+  top: -100px;
+}
+.hero-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero-container-list {
+  border: 1px solid #dce9e2;
+  border-radius: 6px;
+  width: 1120px;
+  height: 210px;
+  background: #fffaf1;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 200px;
+}
+
+.hero-container-list-item {
+}
+
+.hero-container-cifra {
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 1.3;
+  color: #212529;
+}
+
+.hero-container-cifra-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #00856f;
+}
