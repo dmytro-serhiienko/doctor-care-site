@@ -223,3 +223,81 @@ header .container {
   line-height: 1.5;
   color: #00856f;
 }
+
+/* !AJUDA */
+
+.ajuda {
+  padding-bottom: 150px;
+}
+
+.ajuda-title {
+  font-weight: 700;
+  font-size: 40px;
+  text-align: center;
+  color: #212529;
+  max-width: 550px;
+  margin: 0 auto;
+
+  & span {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.5;
+    letter-spacing: 0.08em;
+    color: #00856f;
+
+    display: flex;
+    flex-direction: column;
+
+    margin-bottom: 16px;
+
+    margin: 0 auto;
+  }
+}
+
+.ajuda-list-wrap {
+}
+
+.ajuda-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px;
+  margin-top: 60px;
+}
+
+.ajuda-list-item {
+  border: 1px solid #dce9e2;
+  border-radius: 6px;
+  padding: 24px;
+  /* width: 347px; */
+  height: 207px;
+  background: #fff;
+
+  width: calc((100% - 2 * 40px) / 3);
+}
+
+.ajuda-image-wrap {
+  width: 24px;
+  height: 24px;
+  border-radius: 100%;
+  background: #dce9e2;
+}
+
+.ajuda-done-svg {
+  fill: #00856f;
+}
+
+.ajuda-list-item-title {
+  font-weight: 600;
+  font-size: 20px;
+  text-align: left;
+  color: #212529;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.ajuda-list-item-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #495057;
+}
