@@ -8,7 +8,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap"
       rel="stylesheet"
     />
 
@@ -27,24 +27,47 @@
   <body>
     <header class="header">
       <div class="container">
-        <a href="">
-          <p>Doctor<span>Care</span></p>
-        </a>
+        <a class="header-logo-link" href="">Doctor<span>Care</span></a>
 
-        <nav>
-          <ul>
-            <li><a href="">Início</a></li>
-            <li><a href="">Sobre</a></li>
-            <li><a href="">Serviços</a></li>
-            <li><a href="">Depoimentos</a></li>
+        <nav class="header-navigation">
+          <ul class="header-navigation-list">
+            <li class="header-navigation-list-item">
+              <a class="header-navigation-link" href="">Início</a>
+            </li>
+            <li class="header-navigation-list-item">
+              <a class="header-navigation-link" href="">Sobre</a>
+            </li>
+            <li class="header-navigation-list-item">
+              <a class="header-navigation-link" href="">Serviços</a>
+            </li>
+            <li class="header-navigation-list-item">
+              <a class="header-navigation-link" href="">Depoimentos</a>
+            </li>
           </ul>
         </nav>
 
-        <button>Agendar consulta</button>
+        <button class="header-button">Agendar consulta</button>
       </div>
     </header>
 
-    <main></main>
+    <main>
+      <section class="hero">
+        <div class="container">
+          <div class="hero-content-wrap">
+            <h1 class="hero-title">
+              <span>BOAS-VINDAS A DOCTORCARE 👋</span>Assistência médica
+              simplificada para todos
+            </h1>
+            <p class="hero-text">
+              Os médicos da DoctorCare vão além dos sintomas para tratar a causa
+              raiz de sua doença e proporcionar uma cura a longo prazo.
+            </p>
+            <button class="hero-button">Agende sua consulta</button>
+          </div>
+          <img class="hero-img" src="./images/hero.png" alt="" />
+        </div>
+      </section>
+    </main>
     <footer></footer>
   </body>
 </html>

@@ -1,5 +1,6 @@
 body {
   font-family: "Montserrat", sans-serif;
+  background: #fff;
 }
 
 h1,
@@ -39,16 +40,144 @@ svg {
   height: auto;
 }
 
-/* .container {
-  max-width: 
-  padding: 
-} */
+section {
+}
 
-/* .section {
-  padding-bottom: 
-} */
+.container {
+  max-width: 1150px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 0 auto;
+}
 
 /* !HEADER */
+.header {
+  background-color: #dce9e2;
+}
+
+.header-container {
+}
+
+header .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.header-logo-link {
+  font-weight: 400;
+  font-size: 25px;
+  text-align: center;
+  color: #212529;
+
+  & span {
+    font-weight: 700;
+    color: #00856f;
+  }
+}
+
+.header-navigation {
+}
+
+.header-navigation-list {
+  display: flex;
+  gap: 30px;
+}
+
+.header-navigation-list-item {
+}
+
+.header-navigation-link {
+  font-weight: 400;
+  font-size: 16px;
+  color: #00856f;
+  opacity: 0.9;
+
+  &:hover {
+    font-weight: 700;
+    font-size: 16px;
+    color: #00856f;
+  }
+}
+
+.header-button {
+  font-weight: 700;
+  font-size: 14px;
+  text-transform: uppercase;
+  color: #00856f;
+  border: 1px solid #00856f;
+  border-radius: 40px;
+  padding: 10px 20px;
+  max-width: 200px;
+  height: 38px;
+
+  background: transparent;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
 /* !MAIN */
 /* !HERO */
+.hero {
+  padding-top: 80px;
+  padding-bottom: 100px;
+  background-color: #dce9e2;
+}
+
+.hero .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.hero-content-wrap {
+  max-width: 605px;
+}
+
+.hero-title {
+  font-weight: 700;
+  font-size: 52px;
+  line-height: 1.3;
+  color: #212529;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 24px;
+
+  & span {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.5;
+    letter-spacing: 0.08em;
+    color: #00856f;
+    margin-bottom: 16px;
+  }
+}
+
+.hero-text {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.5;
+  color: #495057;
+  margin-bottom: 32px;
+}
+
+.hero-button {
+  border-radius: 40px;
+  padding: 16px 32px;
+  width: 264px;
+  height: 52px;
+  background: #00856f;
+
+  font-weight: 700;
+  font-size: 14px;
+  text-transform: uppercase;
+  color: #fff;
+}
+
+.hero-img {
+  max-width: 420px;
+}
