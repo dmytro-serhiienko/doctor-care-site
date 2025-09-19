@@ -95,10 +95,12 @@ header .container {
   color: #00856f;
   opacity: 0.9;
 
-  &:hover {
-    font-weight: 700;
+  &:hover,
+  &:active {
+    font-weight: 500;
     font-size: 16px;
     color: #00856f;
+    opacity: 1;
   }
 }
 
@@ -118,6 +120,23 @@ header .container {
   display: flex;
   justify-content: center;
   align-items: center;
+
+  transition-property: transform, background-color, color, border, box-shadow;
+  transition-duration: 500ms;
+  transition-timing-function: easy;
+  transition-delay: 0;
+
+  &:hover,
+  &:active {
+    transform: scale(1.1);
+    border: none;
+    box-shadow: 0px 1px 2px 0px rgba(188, 188, 188, 0.7),
+      1px 2px 4px 0px rgba(188, 188, 188, 0.7),
+      2px 4px 8px 0px rgba(188, 188, 188, 0.7),
+      2px 4px 16px 0px rgba(188, 188, 188, 0.7);
+    color: #fff;
+    background-color: #00453a;
+  }
 }
 
 /* !MAIN */
@@ -176,6 +195,21 @@ header .container {
   font-size: 14px;
   text-transform: uppercase;
   color: #fff;
+
+  transition-property: transform, background-color, box-shadow;
+  transition-duration: 500ms;
+  transition-timing-function: easy;
+  transition-delay: 0;
+
+  &:hover,
+  &:active {
+    transform: scale(1.1);
+    box-shadow: 0px 1px 2px 0px rgba(188, 188, 188, 0.7),
+      1px 2px 4px 0px rgba(188, 188, 188, 0.7),
+      2px 4px 8px 0px rgba(188, 188, 188, 0.7),
+      2px 4px 16px 0px rgba(188, 188, 188, 0.7);
+    background-color: #00453a;
+  }
 }
 
 .hero-button::before {
@@ -401,6 +435,12 @@ header .container {
   color: #495057;
 }
 
+.contact-list {
+}
+
+.contact-list-item {
+}
+
 .locate::before {
   content: "";
   display: inline-block; /* или block */
@@ -443,6 +483,21 @@ header .container {
   align-items: center;
   gap: 18px;
   margin-top: 40px;
+
+  transition-property: transform, background-color, box-shadow;
+  transition-duration: 500ms;
+  transition-timing-function: easy;
+  transition-delay: 0;
+
+  &:hover,
+  &:active {
+    transform: scale(1.1);
+    box-shadow: 0px 1px 2px 0px rgba(188, 188, 188, 0.7),
+      1px 2px 4px 0px rgba(188, 188, 188, 0.7),
+      2px 4px 8px 0px rgba(188, 188, 188, 0.7),
+      2px 4px 16px 0px rgba(188, 188, 188, 0.7);
+    background-color: #00453a;
+  }
 }
 
 .contact-button-svg {
@@ -488,6 +543,7 @@ header .container {
   font-size: 14px;
   color: #fffaf1;
   margin-bottom: 10px;
+  margin-top: 10px;
 
   & span {
     margin-right: 5px;
@@ -513,6 +569,7 @@ header .container {
   padding-left: 20px;
   padding-right: 20px;
   width: 450px;
+  border: transparent;
 }
 
 .footer-form-input::placeholder {
@@ -528,4 +585,15 @@ header .container {
   background: #016957;
   padding: 16px 20px;
   margin-left: 5px;
+
+  transition-property: transform, background-color;
+  transition-duration: 500ms;
+  transition-timing-function: easy;
+  transition-delay: 0;
+
+  &:hover,
+  &:active {
+    transform: scale(1.1);
+    background-color: #00453a;
+  }
 }

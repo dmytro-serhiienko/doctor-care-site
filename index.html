@@ -20,10 +20,12 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
+
     <!-- css -->
     <link rel="stylesheet" href="./css/styles.css" />
     <title>Brand-Promo</title>
   </head>
+
   <body>
     <header class="header">
       <div class="container">
@@ -35,7 +37,9 @@
               <a class="header-navigation-link" href="">Início</a>
             </li>
             <li class="header-navigation-list-item">
-              <a class="header-navigation-link" href="">Sobre</a>
+              <a class="header-navigation-link animate__bounce" href=""
+                >Sobre</a
+              >
             </li>
             <li class="header-navigation-list-item">
               <a class="header-navigation-link" href="">Serviços</a>
@@ -196,16 +200,27 @@
         <div class="container">
           <div class="contact-wrap">
             <h2 class="contact-title">Entre em contato com a gente!</h2>
-            <a
-              class="contact-link locate"
-              href="https://maps.app.goo.gl/DoWTi3CXYmTW7PWt6"
-              target="_blank"
-            >
-              R. Amauri Souza, 346
-            </a>
-            <a class="contact-link mail" href="mailto:contato@doctorcare.com">
-              contato@doctorcare.com</a
-            >
+
+            <ul class="contact-list">
+              <li class="contact-list-item">
+                <a
+                  class="contact-link locate"
+                  href="https://maps.app.goo.gl/DoWTi3CXYmTW7PWt6"
+                  target="_blank"
+                >
+                  R. Amauri Souza, 346
+                </a>
+              </li>
+              <li>
+                <a
+                  class="contact-link mail"
+                  href="mailto:contato@doctorcare.com"
+                >
+                  contato@doctorcare.com</a
+                >
+              </li>
+            </ul>
+
             <button class="contact-button" type="button">
               <svg class="contact-button-svg" width="20" height="21">
                 <use href="./images/icons.svg#icon-wats"></use>
